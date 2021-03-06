@@ -15,8 +15,8 @@ def main():
     score = 0
     slope = randint(1, 6)
     sysfont = pygame.font.SysFont(None, 36)
-    ship_image = pygame.image.load(r'C:\Users\hirob\Desktop\PyGame\image\flappy.png')
-    bang_image = pygame.image.load(r"C:\Users\hirob\Desktop\PyGame\image\bang.png")
+    ship_image = pygame.image.load(r'Char')
+    bang_image = pygame.image.load(r"Bang")
     holes = []
 
     for xpos in range(wall):
